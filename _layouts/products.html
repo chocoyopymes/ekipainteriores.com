@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<section class="breadcrumbs-custom">
+  <div class="shell">
+    <div class="breadcrumbs-custom__inner">
+      <p class="breadcrumbs-custom__title">{{ page.title }}</p>
+      <ul class="breadcrumbs-custom__path">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="{{ site.url }}/{{ page.parent }}/">{{ page.parent }}</a></li>
+        <li class="active">{{ page.title }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="section-md bg-white">
+  <div class="shell">
+    <div class="range range-60 range-md-reverse">
+      <div class="cell-md-9 section-divided__main section-divided__main-left">
+        <section class="section-sm">
+          <div class="filter-shop-box">
+          </div>
+          <div class="range range-xs-center range-70">
+            {% for post in site.posts %}
+            {% if post.categories contains page.slug %}
+            <div class="cell-xs-12">
+              <div class="product product-list unit unit-sm-horizontal unit-spacing-lg">
+                <div class="unit__left product-img-wrap">
+                  {% if post.image %}
+                  <img src="{{ post.image }}" alt="" width="418" height="560"/>
+                  {% endif %}
+                  <div class="product-label-wrap">
+                    {% if post.featured %}
+                    <span class="featured">{{ post.featured }}</span>
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="unit__body product-caption">
+                  {% if post.title %}
+                  <h5 class="product-title">
+                    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                  </h5>
+                  {% endif %}
+                  {% if post.price %}
+                  <p class="product-price">
+                    <span>{{ post.price }}</span>
+                  </p>
+                  {% endif %}
+                  {% if post.code %}
+                  <p class="product-text">
+                    {{ post.code }}
+                  </p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </section>
+      </div>
+      <div class="cell-md-3 section-divided__aside section__aside-left">
+        <!-- Categories-->
+        <section class="section-sm">
+          <h5>Categorías</h5>
+          <ul class="small list">
+            {% for category in site.data[page.parent] %}
+            <li>
+              <a href="{{ site.url }}/{{ page.parent }}/{{ category.slug }}/">
+                {{ category.name }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,10 @@
+<li>
+  <a href="#">COMEDOR</a>
+  <ul class="rd-navbar-dropdown">
+    {% for category in site.data.comedor %}
+    <li>
+      <a href="{{ site.url }}/comedor/{{ category.slug }}">{{ category.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</li>

@@ -1,0 +1,19 @@
+- name: ESCRITORIO
+  slug: escritorio
+  image: /assets/images/categories/300x300.png
+
+- name: SOFA CAMA
+  slug: sofa-cama
+  image: /assets/images/categories/300x300.png
+
+- name: LIBRERO
+  slug: librero
+  image: /assets/images/categories/300x300.png
+
+- name: SILLA
+  slug: silla
+  image: /assets/images/categories/300x300.png
+
+- name: SOFA CAMA / FUTON
+  slug: sofa-cama-futon
+  image: /assets/images/categories/300x300.png

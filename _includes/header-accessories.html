@@ -1,0 +1,10 @@
+<li>
+  <a href="#">ACCESORIOS</a>
+  <ul class="rd-navbar-dropdown">
+    {% for category in site.data.accesorios %}
+    <li>
+      <a href="{{ site.url }}/accesorios/{{ category.slug }}">{{ category.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</li>

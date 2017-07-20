@@ -1,0 +1,35 @@
+- name: SOFA
+  slug: sofa
+  image: /assets/images/categories/505521.jpg
+
+- name: LOVE SEAT
+  slug: love-seat
+  image: /assets/images/categories/505205.jpg
+
+- name: SILLON
+  slug: sillon
+  image: /assets/images/categories/300x300.png
+
+- name: SECCIONAL
+  slug: seccional
+  image: /assets/images/categories/sm1111.jpg
+
+- name: PUFF Y OTTOMAN
+  slug: puff-y-ottoman
+  image: /assets/images/categories/300x300.png
+
+- name: BANCA
+  slug: banca
+  image: /assets/images/categories/300x300.png
+
+- name: MESA DE CENTRO
+  slug: mesa-de-centro
+  image: /assets/images/categories/300x300.png
+
+- name: MESA LATERAL
+  slug: mesa-lateral
+  image: /assets/images/categories/300x300.png
+
+- name: MUEBLE PARA TV
+  slug: mueble-para-tv
+  image: /assets/images/categories/300x300.png

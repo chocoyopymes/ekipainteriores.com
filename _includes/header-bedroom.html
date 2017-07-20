@@ -1,0 +1,10 @@
+<li>
+  <a href="#">DORMITORIO</a>
+  <ul class="rd-navbar-dropdown">
+    {% for category in site.data.dormitorio %}
+    <li>
+      <a href="{{ site.url }}/dormitorio/{{ category.slug }}">{{ category.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</li>

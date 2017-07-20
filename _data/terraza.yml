@@ -1,0 +1,19 @@
+- name: SOFA
+  slug: sofa
+  image: /assets/images/categories/300x300.png
+
+- name: SECCIONAL
+  slug: seccional
+  image: /assets/images/categories/300x300.png
+
+- name: SILLA
+  slug: silla
+  image: /assets/images/categories/300x300.png
+
+- name: MESAS
+  slug: mesas
+  image: /assets/images/categories/300x300.png
+
+- name: ACCESORIOS
+  slug: accesorios
+  image: /assets/images/categories/300x300.png

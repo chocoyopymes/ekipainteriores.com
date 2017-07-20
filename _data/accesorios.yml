@@ -1,0 +1,27 @@
+- name: ALFOMBRAS
+  slug: alfombras
+  image: /assets/images/categories/300x300.png
+
+- name: ESPEJOS
+  slug: espejos
+  image: /assets/images/categories/300x300.png
+
+- name: CUADROS
+  slug: cuadros
+  image: /assets/images/categories/300x300.png
+
+- name: COJINES
+  slug: cojines
+  image: /assets/images/categories/300x300.png
+
+- name: ADORNOS
+  slug: adornos
+  image: /assets/images/categories/300x300.png
+
+- name: PLANTAS
+  slug: plantas
+  image: /assets/images/categories/300x300.png
+
+- name: LAMPARAS
+  slug: lamparas
+  image: /assets/images/categories/300x300.png

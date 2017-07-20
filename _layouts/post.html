@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="section-sm bg-white">
+  <div class="shell">
+    <div class="range range-60">
+      <div class="cell-sm-6 cell-md-5">
+        <img src="{{ page.image }}" alt="" width="418" height="560" />
+      </div>
+      <div class="cell-sm-6 cell-md-7">
+        <div class="product-single">
+          <h4>{{ page.title | escape }}</h4>
+          <p class="product-text"><span>{{ page.code }}</span></p>
+          <p class="product-text">Para obtener información acerca de este producto usa el formulario de contacto.</p>
+          <ul class="product-meta">
+            <li>
+              <dl class="list-terms-minimal">
+                <dt>Categoría</dt>
+                <dd>
+                  <ul class="product-categories">
+                    <li>{{ page.categories }}</li>
+                  </ul>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include product-related.html %}

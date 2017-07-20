@@ -1,0 +1,24 @@
+<section class="section-lg bg-white text-center">
+  <div class="shell">
+    <h4>Categorías</h4>
+    <div class="range range-60">
+      {% for item in site.data.index_three %}
+      <div class="cell-sm-6 cell-lg-3">
+        <!-- Thumb corporate-->
+        <div class="thumb thumb-corporate">
+          <div class="thumb-corporate__main">
+            <a href="{{ site.url }}/{{ item.slug }}">
+              <img src="{{ item.image }}" alt="{{ item.name }}" width="301" height="301">
+            </a>
+          </div>
+          <div class="thumb-corporate__caption">
+            <p class="thumb__title">
+              <a href="{{ site.url }}/{{ item.slug }}">{{ item.name }}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
