@@ -22,7 +22,7 @@ phones: +(505) 2227 0880
 address: Camino de Oriente B2-3, N/A, Managua
 attention_schedule: "Lunes a Viernes: 9:00 a.m. a 6:00 p.m. - Sábado: 10:00 a.m. a 4:00 p.m."
 description: "Muebles de sala, Terraza, Dormitorios, Comedores, Lámparas, Alfombras y demás Accesorios de Decoración que harán de tu casa un lugar bello y cómodo."
-baseurl: ekipainteriores.com # the subpath of your site, e.g. /blog
+baseurl: pymes.ekipainteriores.com # the subpath of your site, e.g. /blog
 url: "http://ekipainteriores.com" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username:  ekipainteriores
 facebook_username: ekipainteriores
