@@ -7,7 +7,7 @@ layout: default
       <p class="breadcrumbs-custom__title">{{ page.title }}</p>
       <ul class="breadcrumbs-custom__path">
         <li><a href="/">Inicio</a></li>
-        <li><a href="{{ site.url }}/{{ page.parent }}/">{{ page.parent }}</a></li>
+        <li><a href="http://localhost:4000/{{ page.parent }}/">{{ page.parent }}</a></li>
         <li class="active">{{ page.title }}</li>
       </ul>
     </div>
@@ -41,14 +41,14 @@ layout: default
                     <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                   </h5>
                   {% endif %}
+                  {% if post.description %}
+                  <p class="product-text">
+                    {{ post.description }}
+                  </p>
+                  {% endif %}
                   {% if post.price %}
                   <p class="product-price">
                     <span>{{ post.price }}</span>
-                  </p>
-                  {% endif %}
-                  {% if post.code %}
-                  <p class="product-text">
-                    {{ post.code }}
                   </p>
                   {% endif %}
                 </div>
@@ -66,7 +66,7 @@ layout: default
           <ul class="small list">
             {% for category in site.data[page.parent] %}
             <li>
-              <a href="{{ site.url }}/{{ page.parent }}/{{ category.slug }}/">
+              <a href="http://localhost:4000/{{ page.parent }}/{{ category.slug }}/">
                 {{ category.name }}
               </a>
             </li>
