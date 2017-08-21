@@ -2,7 +2,7 @@
 
 **Dominio**:
 
-http://localhost:4000
+http://ekipainteriores.com
 
 **Plantilla**:
 

@@ -7,7 +7,7 @@ layout: default
       <p class="breadcrumbs-custom__title">{{ page.title }}</p>
       <ul class="breadcrumbs-custom__path">
         <li><a href="/">Inicio</a></li>
-        <li><a href="http://localhost:4000/{{ page.parent }}/">{{ page.parent }}</a></li>
+        <li><a href="http://ekipainteriores.com/{{ page.parent }}/">{{ page.parent }}</a></li>
         <li class="active">{{ page.title }}</li>
       </ul>
     </div>
@@ -66,7 +66,7 @@ layout: default
           <ul class="small list">
             {% for category in site.data[page.parent] %}
             <li>
-              <a href="http://localhost:4000/{{ page.parent }}/{{ category.slug }}/">
+              <a href="http://ekipainteriores.com/{{ page.parent }}/{{ category.slug }}/">
                 {{ category.name }}
               </a>
             </li>
