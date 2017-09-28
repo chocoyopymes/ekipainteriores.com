@@ -22,6 +22,10 @@
   slug: banca
   image: /assets/images/categories/300x300.png
 
+- name: CONSOLA
+  slug: consola
+  image: /assets/images/categories/300x300.png
+
 - name: MESA DE CENTRO
   slug: mesa-de-centro
   image: /assets/images/categories/300x300.png
