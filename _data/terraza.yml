@@ -1,19 +1,19 @@
 - name: SOFA
-  slug: sofa
+  slug: sofa-terraza
   image: /assets/images/categories/300x300.png
 
 - name: SECCIONAL
-  slug: seccional
+  slug: seccional-terraza
   image: /assets/images/categories/300x300.png
 
 - name: SILLA
-  slug: silla
+  slug: silla-terraza
   image: /assets/images/categories/300x300.png
 
 - name: MESAS
-  slug: mesas
+  slug: mesas-terraza
   image: /assets/images/categories/300x300.png
 
 - name: ACCESORIOS
-  slug: accesorios
+  slug: accesorios-terraza
   image: /assets/images/categories/300x300.png
