@@ -1,9 +1,5 @@
-- name: SOFA
-  slug: sofa-terraza
-  image: /assets/images/categories/300x300.png
-
-- name: SECCIONAL
-  slug: seccional-terraza
+- name: SET
+  slug: set-terraza
   image: /assets/images/categories/300x300.png
 
 - name: SILLA
