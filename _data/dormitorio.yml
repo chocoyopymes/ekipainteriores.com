@@ -10,13 +10,9 @@
   slug: mesa-de-noche
   image: /assets/images/categories/204302.jpg
 
-- name: COMODA
+- name: COMODA Y GAVETERO
   slug: comoda
   image: /assets/images/categories/b259-03.jpg
-
-- name: GAVETERO
-  slug: gavetero
-  image: /assets/images/categories/201305.jpg
 
 - name: CAMAS PARA NIÑOS
   slug: camas-para-ninos
