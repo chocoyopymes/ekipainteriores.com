@@ -13,3 +13,7 @@
 - name: ACCESORIOS
   slug: accesorios-terraza
   image: /assets/images/categories/300x300.png
+
+- name: CHAISE LOUNGE
+  slug: chaise-lounge
+  image: /assets/images/categories/300x300.png
