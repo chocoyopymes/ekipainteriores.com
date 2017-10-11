@@ -6,8 +6,8 @@
   slug: silla-terraza
   image: /assets/images/categories/300x300.png
 
-- name: MESAS
-  slug: mesas-terraza
+- name: COMEDOR
+  slug: comedor-terraza
   image: /assets/images/categories/300x300.png
 
 - name: ACCESORIOS
@@ -16,4 +16,8 @@
 
 - name: CHAISE LOUNGE
   slug: chaise-lounge
+  image: /assets/images/categories/300x300.png
+
+- name: COLUMPIOS
+  slug: columpios-terraza
   image: /assets/images/categories/300x300.png
