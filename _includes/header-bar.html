@@ -1,0 +1,10 @@
+<li>
+  <a href="#">BAR</a>
+  <ul class="rd-navbar-dropdown">
+    {% for category in site.data.bar %}
+    <li>
+      <a href="http://ekipainteriores.com/sala/{{ category.slug }}">{{ category.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</li>
