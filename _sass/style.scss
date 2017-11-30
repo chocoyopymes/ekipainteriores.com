@@ -2675,7 +2675,25 @@ a.thumbnail-classic-title:hover {
   border-top: 3px solid #F70505;
 }
 
+.politicas-div {
+  padding: 50px;
+}
 
+.politicas-div p {
+  font-size: 15px;
+  margin: 50px;
+}
+
+@media (max-width: 400px) {
+  .politicas-div {
+    padding: 0px;
+  }
+
+  .politicas-div p {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+}
 
 .btn-ekipa {
   background-color: #888;
