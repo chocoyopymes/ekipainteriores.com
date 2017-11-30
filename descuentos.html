@@ -22,13 +22,11 @@ layout: default
           </div>
           <div class="range range-xs-center range-70">
             {% for post in site.posts %}
-            {% if post.categories contains page.slug %}
+            {% if post.descount %}
             <div class="cell-xs-12">
               <div class="product product-list unit unit-sm-horizontal unit-spacing-lg">
                 <div class="box unit__left product-img-wrap">
-                  {% if post.descount %}
                     <div class="ribbon"><span>{{ post.descount }}</span></div>
-                  {% endif %}
                   {% if post.image %}
                   <img src="{{ post.image }}" alt="" width="418" height="560"/>
                   {% endif %}
@@ -67,13 +65,27 @@ layout: default
         <section class="section-sm">
           <h5>Categorías</h5>
           <ul class="small list">
-            {% for category in site.data[page.parent] %}
-            <li>
-              <a href="http://ekipainteriores.com/{{ page.parent }}/{{ category.slug }}/">
-                {{ category.name }}
-              </a>
-            </li>
-            {% endfor %}
+              <li>
+                <a href="http://ekipainteriores.com/sala/">SALA</a>
+              </li>
+              <li>
+                <a href="http://ekipainteriores.com/comedor/">COMEDOR</a>
+              </li>
+              <li>
+                <a href="http://ekipainteriores.com/bar/">BAR</a>
+              </li>
+              <li>
+                <a href="http://ekipainteriores.com/dormitorio/">DORMITORIO</a>
+              </li>
+              <li>
+                <a href="http://ekipainteriores.com/terraza/">TERRAZA</a>
+              </li>
+              <li>
+                <a href="http://ekipainteriores.com/accesorios/">ACCESORIOS</a>
+              </li>
+              <li>
+                <a href="http://ekipainteriores.com/estudio/">ESTUDIO</a>
+              </li>
           </ul>
         </section>
       </div>

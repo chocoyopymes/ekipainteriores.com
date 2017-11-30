@@ -17,3 +17,63 @@
   image: /assets/images/home/home_promo_A2C00088-2.jpg
   code: A2C00088-2
   percentage: 30
+
+  - title: 'BF Jillian Table Lamp'
+    image: /assets/images/home/home_promo_31415.jpg
+    code: 31415
+    percentage: 30
+
+  - title: 'BF Hardy Chevron Shade Table Lamp'
+    image: /assets/images/home/home_promo_31322.jpg
+    code: 31322
+    percentage: 30
+
+  - title: 'Ceramic Table Lamp'
+    image: /assets/images/home/home_promo_L846554.jpg
+    code: L846554
+    percentage: 30
+
+  - title: 'Brushed Silver Finished Metal'
+    image: /assets/images/home/home_promo_A2C00088-2.jpg
+    code: A2C00088-2
+    percentage: 30
+
+    - title: 'BF Jillian Table Lamp'
+      image: /assets/images/home/home_promo_31415.jpg
+      code: 31415
+      percentage: 30
+
+    - title: 'BF Hardy Chevron Shade Table Lamp'
+      image: /assets/images/home/home_promo_31322.jpg
+      code: 31322
+      percentage: 30
+
+    - title: 'Ceramic Table Lamp'
+      image: /assets/images/home/home_promo_L846554.jpg
+      code: L846554
+      percentage: 30
+
+    - title: 'Brushed Silver Finished Metal'
+      image: /assets/images/home/home_promo_A2C00088-2.jpg
+      code: A2C00088-2
+      percentage: 30
+
+      - title: 'BF Jillian Table Lamp'
+        image: /assets/images/home/home_promo_31415.jpg
+        code: 31415
+        percentage: 30
+
+      - title: 'BF Hardy Chevron Shade Table Lamp'
+        image: /assets/images/home/home_promo_31322.jpg
+        code: 31322
+        percentage: 30
+
+      - title: 'Ceramic Table Lamp'
+        image: /assets/images/home/home_promo_L846554.jpg
+        code: L846554
+        percentage: 30
+
+      - title: 'Brushed Silver Finished Metal'
+        image: /assets/images/home/home_promo_A2C00088-2.jpg
+        code: A2C00088-2
+        percentage: 30

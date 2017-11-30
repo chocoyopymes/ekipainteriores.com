@@ -2627,7 +2627,6 @@ a.thumbnail-classic-title:hover {
 
 
 
-/* Ribbon */
 .box {
   width: 200px; height: 300px;
   position: relative;
@@ -2636,7 +2635,7 @@ a.thumbnail-classic-title:hover {
 }
 .ribbon {
   position: absolute;
-  right: -5px; top: -5px;
+  left: -5px; top: -5px;
   z-index: 1;
   overflow: hidden;
   width: 75px; height: 75px;
@@ -2649,15 +2648,15 @@ a.thumbnail-classic-title:hover {
   text-transform: uppercase;
   text-align: center;
   line-height: 20px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
   width: 100px;
   display: block;
   background: #79A70A;
   background: linear-gradient(#F70505 0%, #F70505 100%);
   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
   position: absolute;
-  top: 19px; right: -21px;
+  top: 19px; left: -21px;
 }
 .ribbon span::before {
   content: "";
@@ -4319,6 +4318,12 @@ h3+.panel-custom-group-wrap {
     border: 1px solid;
     color: #c7c7c7;
     cursor: pointer;
+}
+
+.product-single h5 {
+  font-weight: 900;
+    font-size: 20px;
+    color: #db0813;
 }
 .product-icon-wrap .icon:hover {
     color: #fff;
