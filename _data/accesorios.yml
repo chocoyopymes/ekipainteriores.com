@@ -18,10 +18,6 @@
   slug: adornos
   image: /assets/images/categories/300x300.png
 
-- name: PLANTAS
-  slug: plantas
-  image: /assets/images/categories/300x300.png
-
 - name: LAMPARAS
   slug: lamparas
   image: /assets/images/categories/300x300.png
