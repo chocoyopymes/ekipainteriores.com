@@ -20,6 +20,7 @@ layout: default
         <section class="section-sm">
           <div class="filter-shop-box">
           </div>
+          Hola mundito bonito chiquito
           <div class="range range-xs-center range-70">
             {% for post in site.posts %}
             {% if post.categories contains page.slug %}
@@ -28,6 +29,11 @@ layout: default
                 <div class="unit__left product-img-wrap">
                   {% if post.image %}
                   <img src="{{ post.image }}" alt="" width="418" height="560"/>
+                  {% if post.descount %}
+                  <div class="box">
+                    <div class="ribbon"><span>POPULAR</span></div>
+                  </div>
+                  {% endif %}
                   {% endif %}
                   <div class="product-label-wrap">
                     {% if post.featured %}
