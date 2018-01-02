@@ -22,11 +22,11 @@ layout: default
           </div>
           <div class="range range-xs-center range-70">
             {% for post in site.posts %}
-            {% if post.descount %}
+            {% if post.discount %}
             <div class="cell-xs-12">
               <div class="product product-list unit unit-sm-horizontal unit-spacing-lg">
                 <div class="box unit__left product-img-wrap">
-                    <div class="ribbon"><span>{{ post.descount }}</span></div>
+                    <div class="ribbon"><span>{{ post.discount }}</span></div>
                   {% if post.image %}
                   <img src="{{ post.image }}" alt="" width="418" height="560"/>
                   {% endif %}
