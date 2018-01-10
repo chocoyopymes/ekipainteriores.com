@@ -20,8 +20,8 @@
 
 - name: CAMAROTES
   slug: camarotes
-  image: /assets/images/categories/300x300.png
+  image: https://i.pinimg.com/736x/02/c3/46/02c3469870b7bf9b33b30f31b1cc0852--bunk-beds-with-drawers-bunk-beds-with-storage.jpg
 
 - name: COLCHONES
   slug: colchones
-  image: /assets/images/categories/300x300.png
+  image: http://colchoneslaspiedras.com/img/icosinicio/colchones_gel.jpg
